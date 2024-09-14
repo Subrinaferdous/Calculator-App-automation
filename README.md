@@ -1,0 +1,29 @@
+# Project Title : Mobile App Automation (Calculator) 
+
+## Project Summary : In this repository, I have automated the Google LLC Calculator Android App and generated an allure report for the test suite results.
+
+## Work Scenerio
+Automate two series for calculator app. Pass the series as a parameter to your test method. For an example:
+100/10*5-10+60 and 
+50+10-20*2+10/2
+pseudocode for test function can be look like:
+
+public void doSeries(){ calcuateSeries("100/10*5-10+60");}
+
+## Prerequisites:
+1.install intellij
+2.Dependencies implementation on Selenium, TestNg , Java
+
+## Tools Used
+Selenium
+TestNG Framework
+Appium
+Allure Report
+Project run gradle clean test For generating Allure Report-
+allure generate allure-results --clean -o allure-report
+allure serve allure-results
+
+## output: For a better understanding of the project, video record is given below.
+https://github.com/user-attachments/assets/bb58ea2d-9870-432f-937b-850e74463dfd
+
+
