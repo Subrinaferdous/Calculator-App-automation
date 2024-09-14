@@ -19,9 +19,9 @@ public void doSeries(){ calcuateSeries("100/10*5-10+60");}
 2. TestNG Framework
 3. Appium
 4. Allure Report
- ``` Project run (gradle clean test) For generating Allure Report  ```
- ``` allure generate allure-results --clean -o allure-report ```
- ``` allure serve allure-results ```
+  ``` Project run (gradle clean test) For generating Allure Report  ```
+  ``` allure generate allure-results --clean -o allure-report ```
+  ``` allure serve allure-results ```
 
 ## output: For a better understanding of the project,Allure Report is given below.
 ![Screenshot 2024-09-15 010621](https://github.com/user-attachments/assets/452edc2a-19b5-4601-a4dc-1f0da3cbf05d)
