@@ -10,21 +10,15 @@ pseudocode for test function can be look like:
 
 public void doSeries(){ calcuateSeries("100/10*5-10+60");}
 
-## Prerequisites:
-## How to run 
+## Prerequisites: 
 1. install intellij
 2. Dependencies implementation on Selenium, TestNg , Java
 
-   1. ``` npm i ```
-   2. ``` npm start ``
-1.install intellij
-2.Dependencies implementation on Selenium, TestNg , Java
-
 ## Tools Used
-1.Selenium
-2.TestNG Framework
-3.Appium
-4.Allure Report
+1. Selenium
+2. TestNG Framework
+3. Appium
+4. Allure Report
  ``` Project run (gradle clean test) For generating Allure Report  ```
  ``` allure generate allure-results --clean -o allure-report ```
  ``` allure serve allure-results ```
